@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://kit.fontawesome.com/2f83a5ee1c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Where in the world?</h1>
+        <div class="dark__mode">
+          <i class="fa-regular fa-moon"></i><span class="mode">Dark Mode</span>
+        </div>
+      </header>
+      <main>
+        <section class="search__filter">
+          <div class="input__container">
+          <i class="fa-solid fa-magnifying-glass button"></i>
+          <input
+            type="search"
+            class="search"
+            placeholder="Search for a country..."
+          />
+        </div>
+          <div class="dropdown">
+            <button class="drop__btn">Filter by Region</button>
+            <div class="drop__content">
+              <a class="africa" href="#">Africa</a>
+              <a class="america" href="#">America</a>
+              <a class="asia" href="#">Asia</a>
+              <a class="europe" href="#">Europe</a>
+              <a class="oceania" href="#">Oceania</a>
+            </div>
+          </div>
+        </section>
+        <section class="countries">
+          <div class="country">
+            <div class="flag"></div>
+            <!-- <section class="description">
+              <h1 class="name">Poland</h1>
+              <p class="population">Population: <span class="pop"> 40.000.00</span></p>
+              <p class="region">Region: <span class="reg">Europe</span></p>
+              <p class="capital">Capital: <span class="cap">Warsaw</span></p>
+            </section> -->
+            </div>            
+        
+        </section>
+        <div class="back hidden">
+          <i class="fa-solid fa-arrow-left"></i>
+          <span class="back__modal">Back</span>
+        </div>
+        <section class="modal hidden">
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
